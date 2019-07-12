@@ -1,0 +1,31 @@
+
+h1{
+    color:black;
+    background-color:rgb(53, 238, 72);
+    text-align: center;
+    font-size:50px;
+    width:515px;
+}
+h2{
+    color:red;
+}
+h3{
+    color:rgb(255, 225, 0,1);
+}
+body{
+    background-image: url("https://media.idownloadblog.com/wp-content/uploads/2018/09/poly-art-abstract-blue-green-pattern-iPhone-XS-Max.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+p{
+    color:black;
+}
+td{
+    color:black;
+}
+table{
+    border: 1px;
+    border-color:black;
+    background-color:lightgreen;
+    color:lightgreen;
+}

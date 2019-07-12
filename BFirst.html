@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        #hello{
+            border-width:5px;
+            border-style:solid;
+            border-color:green;
+            margin-top:10%;
+            width:30%;
+        }
+        #wow{
+            margin:50px;
+        }
+        #mybtn{
+            margin:0px 10px 20px 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="container" align="center" id="hello">
+            <h1  id="wow">Log in</h1>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Username</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg" id="mybtn">Large button</button>
+        </div>
+    </form>
+</body>
+</html>
